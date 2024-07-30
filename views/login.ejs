@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel= "stylesheet" type= "text/css" href= "styles/style.css">
+    <link rel= "stylesheet" type= "text/css" href= "styles/login.css">
+    <title>Login</title>
+  </head>
+    <body>
+        <%- include('header'); -%>
+        <div class="formwrap">
+            <div class="form">
+            
+                <div class="container">
+                    <p>
+                        <b>Email</b>
+                        <input type="email" placeholder="Enter Email" id="email">
+                    </p>
+                
+                    <p>
+                        <b>Password</b>
+                        <input type="password" placeholder="Enter Password" id="password">
+                    </p>
+
+                    <p>
+                        <a id="login">Login</a>
+                    </p>
+
+                    <p id="error"></p>
+                </div>
+
+            </form>
+        </div>
+        <script type="text/javascript" src="login.js"></script>
+    </body>
+</html>

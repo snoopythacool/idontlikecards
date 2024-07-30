@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --color-primary: rgb(59, 59, 59);
+    --color-secondary: white;
+}
+
+span {
+    white-space:nowrap;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin: auto;
+    background-image: url("../images/background.png");
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
+p {
+    font-size: 1rem;
+}
+
+.heading {
+    flex:none;
+    display: block;
+    margin: 8px;
+}
+
+#profilelink {
+    display: none;
+}
+
+@media (max-width: 1000px) and (max-width: 1000px) {
+    .menubar {
+        font-size: 0.8rem;
+    }
+}

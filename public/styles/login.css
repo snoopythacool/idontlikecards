@@ -1,0 +1,18 @@
+.formwrap {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    max-width: 300;
+}
+
+#error {
+    color: red;
+}
+
+p {
+    text-align: center;
+}

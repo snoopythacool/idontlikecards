@@ -1,0 +1,110 @@
+.container {
+    flex:none;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    white-space: nowrap;
+}
+
+.container::-webkit-scrollbar{
+    display: none;  /* Safari and Chrome */
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #ebebeb;
+    border-style: solid;
+    border-color: black;
+}
+
+.cardimage {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.reviewable {
+    border-style: solid;
+    border-color: gold;
+}
+
+#display {
+    display: none;
+    grid-template-columns: 400px auto;
+    gap: 10px;
+    padding: 10;
+    flex: 1;
+    min-height: 1;
+}
+
+.description {
+    font-size: 14px;
+    overflow-y: scroll;
+}
+
+.about {
+    padding: 10;
+    min-height: 1;
+}
+
+.displayimage {
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: #ebebeb;
+}
+
+.review {
+    margin: 5;
+    padding: 10;
+    background-color: rgb(214, 210, 210);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: black;
+}
+
+.reviewBox {
+    margin: 0;
+    width: 100%;
+    outline: none;
+    word-wrap: break-word;
+    white-space: pre-wrap
+}
+
+.insertBox {
+    background-color: gold;
+}
+
+.upload {
+    background-color: rgb(214, 210, 210);
+    text-decoration: none;
+}
+
+.insertAreaSpan {
+    font-size: 1rem;
+    float: right;
+}
+
+.noreviews {
+    font-size: 30rem;
+}
+
+.nextButton {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.aboutText {
+    margin: 2;
+}
+
+#deleteSpan {
+    display: none;
+}
+
+#insert {
+    display: none;
+}

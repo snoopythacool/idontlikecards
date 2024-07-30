@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel= "stylesheet" type= "text/css" href= "styles/style.css">
+    <link rel= "stylesheet" type= "text/css" href= "styles/index.css">
+    <title>감상이싫어</title>
+  </head>
+  <body>
+    <%- include('header'); -%>
+    <div class="container">
+      <!-- Add more cards as needed -->
+    </div>
+    <div id="display">
+      <div><img class="displayimage" id="displayImage"/></div>
+      <div class="description">
+        <p>
+          타입: <span id="type"></span><br/>
+          아티스트: <span id="artist"></span><br/>
+          이름: <span id="name"></span><br/>
+          릴리즈: <span id="releaseDate"></span><br/>
+
+          감상 날짜: <span id="listendate"></span><br/>
+        </p>
+        <span id="review">
+          <hr/>
+          <p><span id="user">username</span>
+          <div class="review">
+            <p class="reviewBox" id="reviewBox">
+            </p>
+          </div>
+        </span>
+      </div>
+    </div>
+    </div>
+    <div id="about" class="about">
+      <p>
+      
+        <p>
+          <div class="aboutText"> 이곳은 당신의 컬렉션입니다 </div>
+        </p>
+        
+        <p>
+          <div class="aboutText"> 여기서는 지금까지 감상한 앨범을 확일할 수 있습니다 </div>
+        </p>
+    </p>
+    <script type="text/javascript" src="collection.js"></script>
+  </body>
+</html>
